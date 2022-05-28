@@ -1,0 +1,18 @@
+<head>
+	<title>Site</title>
+    <link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <div id="top">
+        <h1>Nothin' to see 'ere, mate</h1>
+        <p1>
+            Just post n' leave
+        </p1>
+        <form action="/site/form" method="POST">
+            <input name="Latom" type="text">
+            <button type="Submit">Submit</button>
+        </form>
+    </div>
+    <footer>Latom</footer>
+</body>
